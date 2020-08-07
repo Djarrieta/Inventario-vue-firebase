@@ -12,3 +12,7 @@ Con esto ya el proyecto esta montado, ahora se puede correr en el navegador con
 
 npm run serve
 code . para abrir el visual studio code
+
+vue add @ianaya89/tailwind
+es un plugin de tailwind para configurar el framework de estilos tailwind en el proyecto vue lo más rápido posible 
+agrega archivos de configuración js, plugins dentro de postcss y contenido en src, pero falta importar el archivo css que se acaba de crear.
