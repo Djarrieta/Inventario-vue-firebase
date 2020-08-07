@@ -1,0 +1,14 @@
+crear una aplicacion con VUE y firebase
+
+ubicarse en la carpeta donde deseamos trabajar
+npm i -g @vue/cli
+con esto vamos a trabajar con VUE CLI (command line interface)
+vue create NOMBREDELPROYECTO
+se seleccionan los features que se nececitan como router
+in dedicated config files
+save preset as NOMBRE de la configuracion que vas a guardar
+
+Con esto ya el proyecto esta montado, ahora se puede correr en el navegador con
+
+npm run serve
+code . para abrir el visual studio code
