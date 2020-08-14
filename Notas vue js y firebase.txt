@@ -16,3 +16,15 @@ code . para abrir el visual studio code
 vue add @ianaya89/tailwind
 es un plugin de tailwind para configurar el framework de estilos tailwind en el proyecto vue lo más rápido posible 
 agrega archivos de configuración js, plugins dentro de postcss y contenido en src, pero falta importar el archivo css que se acaba de crear.
+
+A este punto se crean los componentes que van a ser reusados, como el header o el footer.
+Todos estos componentes se llaman desde App.vue, que es de donde index.html obtiene todos su contenido.
+
+Para poder hacer rutas, se necesita la dependencia Vue router que se obtiene instalando:
+npm i -S vue-router
+con esta instalacion se crea la dependencia visible en package.json
+
+Ahora hay que crear un archivo router.js
+
+npm install --save firebase
+para instalar la dependencia a firebase
