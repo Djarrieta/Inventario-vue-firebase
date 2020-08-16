@@ -28,3 +28,21 @@ Ahora hay que crear un archivo router.js
 
 npm install --save firebase
 para instalar la dependencia a firebase
+
+Con la extension de chrome al inspeccionar sale una ventana de vue que nos muestra en tiempo real los valores de data model para debbugiar
+En el evento created de vue, se pueden obtener los datos que se necesitan para arrancar la aplicacion, como consultar los valores de vue.
+
+los componentes padres le pasan informacion a los hijos por medio de propiedades
+Los componentes hijos le pasan informacion a los padres por medio de eventos
+
+los {{}} mustaches permiten una expresicon como  ok ? 'YES' : 'NO', message.split('').reverse().join('') 
+pero no permiten 
+
+<!-- esto es una declaración, no una expresión -->
+{{ var a = 1 }}
+
+<!-- El control de flujo tampoco funcionará, use expresiones ternarias -->
+{{ if (ok) { return message } }}
+
+Dentro del objeto computed se colocan las propiedades computadas
+Dentro del objeto watch se colocan funciones que se ejecutan cuando una variable cambia

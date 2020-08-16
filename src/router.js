@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Articulos from '@/views/Articulos'
+import Home from '@/views/Home'
+import Items from '@/views/Items'
 import About from '@/views/About'
 import Error from '@/views/Error'
 
@@ -10,9 +11,14 @@ export default new Router({
     mode:'history',
     routes:[
         {
-            path:'/articulos',
-            name:'Articulos',
-            component:Articulos
+            path:'/',
+            name:'Home',
+            component:Home
+        },
+        {
+            path:'/items',
+            name:'Items',
+            component:Items
         },
         {
             path:'/about',
